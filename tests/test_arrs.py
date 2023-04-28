@@ -2,7 +2,7 @@ from utils import arrs
 
 
 def test_get():
-    assert arrs.get([1, 2, 3], 1, "test") ==
+    assert arrs.get([1, 2, 3], 1, "test") == 2
     assert arrs.get([], -1, "test") == "test"
 
 
